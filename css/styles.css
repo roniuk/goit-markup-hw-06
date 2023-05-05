@@ -793,6 +793,11 @@ transition: background-color var(--animation);
 
 }
 
+.footer-button-subscribe:hover,
+.footer-button-subscribe:hover {
+    background-color: var(--ocean);
+}
+
 /* ---------- MODAL - WINDOW ----------------- */
 
 .backdrop {
