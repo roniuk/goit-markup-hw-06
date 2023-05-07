@@ -60,7 +60,7 @@ ul {
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: 24px;
+        /* line-height: 24px; */
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--slate-text); 
@@ -825,6 +825,7 @@ transition: background-color var(--animation);
     left: 50%;
     width: 408px;
     height: 584px;
+    padding: 72px 24px 24px 24px;
     transform: translate(-50%, -50%);
     opacity: 1;
     background-color: var(--modal-color);
@@ -869,21 +870,17 @@ transition: background-color var(--animation);
     display: flex;
     flex-direction: column;
 
-    padding: 0 24px 0 24px;
+    /* padding: 0 24px 0 24px; */
     margin-bottom: 16px;
 }
 
 .text-modal {
 font-weight: 500;
-/* font-size: 16px; */
-/* line-height: 1.5; */
 text-align: center;
-/* letter-spacing: 0.02em; */
 color: var(--navy-blue);
 
-padding: 72px 24px 0 24px; 
+/* padding: 72px 24px 0 24px;  */
 margin-bottom: 16px;
-/* display: flex; */
 
 }
 
@@ -904,6 +901,7 @@ position: relative;
     outline: none; 
     width: 100%;
     height: 40px;
+    margin-bottom: 8px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     padding-left: 42px;
@@ -938,6 +936,7 @@ fill: var(--iris);
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
+        margin-bottom: 16px;
         color: var(--navy-blue);
         /* identical to box height, or 117% */
     padding-top: 8px;
@@ -987,7 +986,7 @@ transition: border 2000 cubic-bezier(0.4, 0, 0.2, 1);
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
-    padding-left: 24px;
+    /* padding-left: 24px; */
     margin-bottom: 24px;
      letter-spacing: 0.04em;
 

@@ -419,7 +419,7 @@
                     <p class="subscribe-media text">Subscribe</p>
                 
                   <form class="contact-futer">
-                    <label class="modal-form-field">
+                    <label class="footer-form-field">
                        
                         <!-- <span class="modal-form-wrapper"> -->
                             <input id="email" type="text" class="footer-form-input" placeholder="E-mail" required pattern="^[a-z]+">
@@ -444,7 +444,7 @@
 
 
 <div class="backdrop is-hidden" data-modal >
-    <div class="modal" >
+<div class="modal">
 
      <!--   clouse button -->
         <button  type="button" class="modal-close-btn" data-modal-close>
@@ -455,7 +455,9 @@
 
      <!--     modal form -->
 <p class="text-modal text">Leave your contacts and we will call you back</p>
+
      <form class="modal-form">
+        <div class="modal-field">
         <label class="modal-form-field">
             <span class="madal-form-input-desk">Name</span>
             <span class="modal-form-wrapper">
@@ -465,6 +467,7 @@
                  </svg>                          
             </span>
         </label>
+        </div>
 
         <label class="modal-form-field">
             <span class="madal-form-input-desk">Phone</span>
@@ -496,7 +499,7 @@
             placeholder="Text input"
             ></textarea>  
         </label>
-</form>
+
         <input id="user-policy" type="checkbox" name="user-policy" class="modal-form-check visually-hidden">
         
         <label for="user-policy" class="modal-form-check-desc">I accept the terms and conditions of the &nbsp;<a href=""><span class="privacy-policy">Privacy Policy</span></a>
@@ -504,7 +507,7 @@
 
         <button type="submit" class="modal-form-submit btn">Send</button>
 
-
+</form>
 
      
     </div>
@@ -513,6 +516,5 @@
 <!-- Вся твоя розмітка, включно з розміткою модалки -->
 <!-- Ставимо перед закриваючим тегом body -->
     <script src="./js/modal.js"></script>
-footer-text
 </body>
 </html> 
