@@ -19,7 +19,9 @@
 </head>
 
 <body>
-    <!-- ==============================  PAGE - HEADER  ================== -->
+    <!-- ==============================  PAGE - HEADER  
+        ================== -->
+       
     <header class="page-header">
         <div class="divheadindex container">
             <!--<div class="wrapper">-->
@@ -41,13 +43,24 @@
             </nav>
 
 
+            <!-- <button type="button" class="burger-btn">
+                <svg class="icon-button" width="24" height="24"></svg>
+                    <use href="./images/icons.svg#icon-heroicons-solid_menu-1"></use>
+                </svg>
+            </button> -->
+
+<svg class="icon-button" width="24" height="24"></svg>
+    <use href="./images/icons.svg#icon-heroicons-solid_menu-1"></use>
+</svg>
+    
+
             <address class="address">
                 <!-- <div class="menu-address"> -->
                 <ul class="menu list">
-                    <li>
+                    <li class="menu-item">
                         <a class="contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                     </li>
-                    <li>
+                    <li class="menu-item">
                         <a class="contact-link link" href="tel:+110001111111">+11 (000) 111-11-11</a>
                     </li>
                 </ul>
@@ -57,10 +70,11 @@
     </header>
 
 
+
     <!-- ////////////////////  FIRST-SECTION     PAGE - MAIN HERO   ////////////////// -->
     <main>
         <section class="hero-image">
-            <div class="container">
+            <div class="herocontainer container">
                 <h1 class="hero-imag-name">Effective Solutions<br>
                     for Your Business</h1>
                 <button type="button" class="btn" data-modal-open>Order Service</button>
@@ -464,15 +478,18 @@
                             placeholder="E-mail" required pattern="^[a-z]+">
                     </label>
 
+</div>
+                    <div class="foter-baton">
                     <button class="footer-button-subscribe" type="submit">Subscribe
                         <svg class="telegramm" width="24" height="24">
                             <use href="./images/icons.svg#icon-telegramm-1"></use>
                         </svg>
                     </button>
+                    </div>
                 </form>
 
 
-            </div>
+            
         </div>
     </footer>
 
@@ -481,7 +498,7 @@
     <!-- //////  =========  MODAL WINDOW   ==========  /////////// -->
 
 
-    <div id="modal-order" class="modal is-open">
+    <div id="modal-order" class="modal">
         <div class="backdrop">
 
             <!--  /////////// ///   first dother element          clouse button   ///////////////       -->
@@ -580,6 +597,12 @@
             </form>
         </div>
     </div>
+
+    @media (max-widht: 320px) {
+      .container {
+        max-widht: 320px;
+      }
+    }
     <script src="./js/modal.js"></script>
 </body>
 
