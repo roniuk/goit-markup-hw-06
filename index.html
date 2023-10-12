@@ -19,16 +19,15 @@
 </head>
 
 <body>
-    <!-- ==============================  PAGE - HEADER  
-        ================== -->
+    <!-- ========================  PAGE - HEADER  ================== -->
        
     <header class="page-header">
         <div class="divheadindex container">
             <!--<div class="wrapper">-->
-            <nav class="page-nav">
+             <nav class="page-nav">
                 <a class="logoone link" href="./index.html">Web<span class="span-logo-header">Studio</span></a>
-                <!-- <div class="menu-nav"> -->
-                <ul class="menu list">
+                
+                 <ul class="menu list">
                     <li class="menu-item">
                         <a class="menu-link first link" href="./index.html">Studio</a>
                     </li>
@@ -38,37 +37,37 @@
                     <li class="menu-item">
                         <a class="menu-link link" href="">Contacts</a>
                     </li>
+                </ul> 
+            
+            </nav> 
+
+   
+
+
+
+                   <address class="address">
+                
+                <ul class="menu-adr list">
+                        <li class="menu-item">
+                               <a class="contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        </li> 
+                        <li class="menu-item">
+                             <a class="contact-link link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                       </li>
                 </ul>
-                <!-- </div> -->
-            </nav>
+                
+                 </address> 
+                
 
-
-            <!-- <button type="button" class="burger-btn">
-                <svg class="icon-button" width="24" height="24"></svg>
-                    <use href="./images/icons.svg#icon-heroicons-solid_menu-1"></use>
-                </svg>
-            </button> -->
-
-<svg class="icon-button" width="24" height="24"></svg>
-    <use href="./images/icons.svg#icon-heroicons-solid_menu-1"></use>
-</svg>
-    
-
-            <address class="address">
-                <!-- <div class="menu-address"> -->
-                <ul class="menu list">
-                    <li class="menu-item">
-                        <a class="contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                    </li>
-                    <li class="menu-item">
-                        <a class="contact-link link" href="tel:+110001111111">+11 (000) 111-11-11</a>
-                    </li>
-                </ul>
-                <!-- </div> -->
-            </address>
+                <button class="iconmenumob">
+                    <svg class="buttonheader" width="24" height="24">
+                        <use href="./images/sectwo.svg#icon-menu-mob"></use>
+                    </svg>
+                </button>
         </div>
-    </header>
+</header>
 
+    <!--   ******************    menu mobile modal   **************** -->
 
 
     <!-- ////////////////////  FIRST-SECTION     PAGE - MAIN HERO   ////////////////// -->
@@ -85,7 +84,7 @@
         <section class="section-two-no-name">
             <div class="container">
                 <h2 class="visually-hidden name-sektion-two">Strategy-Technologies</h2>
-                <ul class=" list-sekond-section list">
+                <ul class=" list-second-section list">
                     <li class="section-two-elem">
                         <div class="icon-box">
                             <svg width="64" height="64">
@@ -149,8 +148,11 @@
                 <h2 class="name-section-fo">Our Team</h2>
                 <ul class="section-fo-list list">
 
+                    
+                    
                     <li class="section-fo-list-elem">
-                        <img src="./images/index/photo1.jpg" alt="cute cat" width="264">
+                        <div class="teamblock">
+                        <img src="./images/index/photo1.jpg" alt="cute cat" width="264" class="worker-foto">
                         <div class="name-worker">
                             <h3 class="name-sektion-fo-elem">Mark Guerrero</h3>
                             <p class="text">Product Designer</p>
@@ -162,7 +164,7 @@
                                         </svg>
                                     </a>
                                 </li>
-
+                     
                                 <li class="li-footer"><a class="soc-link link" href="https://instagram.com"
                                         target="_blank" rel="noopener noreferrer" aria-label="Instagram icon">
                                         <svg class="socials-icon" width="16" height="16">
@@ -188,9 +190,11 @@
                                 </li>
                             </ul>
                         </div>
+                        </div>
                     </li>
 
                     <li class="section-fo-list-elem">
+                        <div class="teamblock">
                         <img src="./images/index/photo2.jpg" alt="cute cat" width="264">
                         <div class="name-worker">
                             <h3 class="name-sektion-fo-elem">Tom Ford</h3>
@@ -229,9 +233,11 @@
                                 </li>
                             </ul>
                         </div>
+                        </div>
                     </li>
 
                     <li class="section-fo-list-elem">
+                        <div class="teamblock">
                         <img src="./images/index/photo3.jpg" alt="cute cat" width="264">
                         <div class="name-worker">
                             <h3 class="name-sektion-fo-elem">Camila Garcia</h3>
@@ -270,9 +276,11 @@
                                 </li>
                             </ul>
                         </div>
+                        </div>
                     </li>
 
                     <li class="section-fo-list-elem">
+                        <div class="teamblock">
                         <img src="./images/index/photo4.jpg" alt="cute cat" width="264">
                         <div class="name-worker">
                             <h3 class="name-sektion-fo-elem">Daniel Wilson</h3>
@@ -310,6 +318,7 @@
                                     </a>
                                 </li>
                             </ul>
+                        </div>
                         </div>
                     </li>
                 </ul>
@@ -424,9 +433,13 @@
             <!--  ============  footer left block    ==========  -->
             <div class="footer-left">
                 <a class="futer-logo-link link" href="./index.html">Web<span class="span-logo">Studio</span></a>
+            
+                
                 <p class="footer-text text">Increase the flow of customers and sales for your business with digital
                     marketing & growth solutions.</p>
             </div>
+
+            
             <!--  ============  footer right block    ==========  -->
             <div class="footer-right">
                 <p class="social-media text">Social media</p>
@@ -466,19 +479,25 @@
                 </ul>
 
             </div>
+        </div>
             <!--   ====================  footer next right block   ================      -->
 
-            <div class="footer-right-next">
+           <div class="nex-container">
+
+
 
                 <p class="subscribe-media text">Subscribe</p>
+
+            <div class="footer-right-next">
 
                 <form class="contact-futer">
                     <label class="footer-form-field">
                         <input name="footer-form-email" id="email" type="email" class="footer-form-input"
                             placeholder="E-mail" required pattern="^[a-z]+">
                     </label>
+                </form>
 
-</div>
+
                     <div class="foter-baton">
                     <button class="footer-button-subscribe" type="submit">Subscribe
                         <svg class="telegramm" width="24" height="24">
@@ -486,22 +505,26 @@
                         </svg>
                     </button>
                     </div>
-                </form>
+            </div>
+                
+            </div>
 
 
             
-        </div>
+       
     </footer>
 
 
 
-    <!-- //////  =========  MODAL WINDOW   ==========  /////////// -->
+
+
+<!-- //////  =========  MODAL WINDOW   ==========  /////////// -->
 
 
     <div id="modal-order" class="modal">
         <div class="backdrop">
 
-            <!--  /////////// ///   first dother element          clouse button   ///////////////       -->
+ <!--  first dother element - clouse button   -->
 
             <button type="button" class="modal-close-btn" data-modal-close>
                 <svg class="model-close-btn-icon" width="8" height="8">
@@ -509,10 +532,10 @@
                 </svg>
             </button>
 
-            <!--    //// ///////     second dother element         text           ////////////          -->
+<!--    second dother element -  text       -->
             <p class="text-modal text">Leave your contacts and we will call you back</p>
 
-            <!--     ///////////    three dother element            modal form  /////////////////        -->
+<!--   three dother element - modal form    -->
 
             <form class="modal-form">
 
@@ -598,11 +621,6 @@
         </div>
     </div>
 
-    @media (max-widht: 320px) {
-      .container {
-        max-widht: 320px;
-      }
-    }
     <script src="./js/modal.js"></script>
 </body>
 
