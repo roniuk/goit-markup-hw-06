@@ -41,10 +41,6 @@
             
             </nav> 
 
-   
-
-
-
                    <address class="address">
                 
                 <ul class="menu-adr list">
@@ -59,93 +55,94 @@
                  </address> 
                 
 
-                <button class="iconmenumob">
-                    <svg class="buttonheader" width="24" height="24">
+                <button class="iconmenumob" data-modal-open>
+                    <svg class="buttonheader" width="24" height="24" >
                         <use href="./images/sectwo.svg#icon-menu-mob"></use>
                     </svg>
                 </button>
         </div>
 
-        <!--   ******************    menu mobile modal   **************** -->
-        
-        <div id="mmodal-order" class="mobile-menu is-open">
+        <!--   ******************    menu mobile modal   **************** -->     
+                    
+<div class="mobile-menu" data-menu >
+    <div class="container mobile-menu-container">
 
-                <!--  first dother element - clouse button   -->
+        <button type="button" class="modal-menu-close-btn" data-modal-close>
+            <svg class="mobile-menu-btn-icon" width="8" height="8">
+                <use href="./images/icons.svg#icon-close-black"></use>
+            </svg>
+        </button>
+       
+    </div>
+        <ul class="mmodal-menu list">
+            <li class="mmodal-menu-item">
+                <a class="mmenu-link first link" href="./index.html">
+                    <h2>Studio</h2>
+                </a>
+            </li>
+            <li class="mmodal-menu-item">
+                <a class="mmenu-link link" href="./portfolio.html">
+                    <h2>Portfolio</h2>
+                </a>
+            </li>
+            <li class="mmodal-menu-item">
+                <a class="mmenu-link link" href="">
+                    <h2>Contacts</h2>
+                </a>
+            </li>
+        </ul> 
+        <address class="address">
+            <ul class="mmenu-adr list">
+                <li class="mmenu-item">
+                    <a class="contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li class="mmenu-item">
+                    <a class="contact-link link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                </li>
+            </ul>      
+        </address>
+         
         
-                <button type="button" class="mobile-menu-close-btn" data-modal-close>
-                    <svg class="model-close-btn-icon" width="8" height="8">
-                        <use href="./images/icons.svg#icon-close-black"></use>
+        <ul class=" list modmod">
+            <li class="li-footer"><a class="socials-link link" href="https://instagram.com" target="_blank"
+                    rel="noopener noreferrer" aria-label="Instagram icon">
+                    <svg class="socials-icon-footer" width="24" height="24">
+                        <use href="./images/footer-icons.svg#icon-instagram-2"></use>
                     </svg>
-                </button>
+                </a>
+            </li>
         
-                <!-- <ul class="modal-menu list">
-                    <li class="modal-menu-item">
-                        <a class="menu-link1 first link" href="./index.html">
-                            <h2>Studio</h2>
-                        </a>
-                    </li>
-                    <li class="moda-menu-item">
-                        <a class="menu-link link" href="./portfolio.html">
-                            <h2>Portfolio</h2>
-                        </a>
-                    </li>
-                    <li class="modal-menu-item">
-                        <a class="menu-link link" href="">
-                            <h2>Contacts</h2>
-                        </a>
-                    </li>
-                </ul> -->
-                
-                <!-- <ul class="cardconten-futer list">
-                    <li class="li-footer"><a class="socials-link link" href="https://instagram.com" target="_blank"
-                            rel="noopener noreferrer" aria-label="Instagram icon">
-                            <svg class="socials-icon-footer" width="24" height="24">
-                                <use href="./images/footer-icons.svg#icon-instagram-2"></use>
-                            </svg>
-                        </a>
-                    </li>
+            <li class="li-footer"><a class="socials-link link" href="https://instagram.com" target="_blank"
+                    rel="noopener noreferrer" aria-label="Instagram icon">
+                    <svg class="socials-icon-footer" width="24" height="24">
+                        <use href="./images/footer-icons.svg#icon-twitter-1"></use>
+                    </svg>
+                </a>
+            </li>
         
-                    <li class="li-footer"><a class="socials-link link" href="https://instagram.com" target="_blank"
-                            rel="noopener noreferrer" aria-label="Instagram icon">
-                            <svg class="socials-icon-footer" width="24" height="24">
-                                <use href="./images/footer-icons.svg#icon-twitter-1"></use>
-                            </svg>
-                        </a>
-                    </li>
+            <li class="li-footer"><a class="socials-link link" href="https://instagram.com" target="_blank"
+                    rel="noopener noreferrer" aria-label="Instagram icon">
+                    <svg class="socials-icon-footer" width="24" height="24">
+                        <use href="./images/footer-icons.svg#icon-facebook-1"></use>
+                    </svg>
+                </a>
+            </li>
         
-                    <li class="li-footer"><a class="socials-link link" href="https://instagram.com" target="_blank"
-                            rel="noopener noreferrer" aria-label="Instagram icon">
-                            <svg class="socials-icon-footer" width="24" height="24">
-                                <use href="./images/footer-icons.svg#icon-facebook-1"></use>
-                            </svg>
-                        </a>
-                    </li>
-        
-                    <li class="li-footer"><a class="socials-link link" href="https://instagram.com" target="_blank"
-                            rel="noopener noreferrer" aria-label="Instagram icon">
-                            <svg class="socials-icon-footer" width="24" height="24">
-                                <use href="./images/footer-icons.svg#icon-linkedin-1"></use>
-                            </svg>
-                        </a>
-                    </li>
-                </ul> -->
-        
-            <!-- </div> -->
-        </div>
-        
-        <!-- finish MODAL MOBILE    -->
+            <li class="li-footer"><a class="socials-link link" href="https://instagram.com" target="_blank"
+                    rel="noopener noreferrer" aria-label="Instagram icon">
+                    <svg class="socials-icon-footer" width="24" height="24">
+                        <use href="./images/footer-icons.svg#icon-linkedin-1"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul> 
+   </div>
 </header>
-  
 
-  
-
-
-   
-    <main>
-
-   
+<main>
 
 <!-- ////////////////////  FIRST-SECTION     PAGE - MAIN HERO   ////////////////// -->
+
         <section class="hero-image">
             <div class="herocontainer container">
                 <h1 class="hero-imag-name">Effective Solutions<br>
@@ -226,7 +223,11 @@
                     
                     <li class="section-fo-list-elem">
                         <div class="teamblock">
-                        <img src="./images/index/photo1.jpg" alt="cute cat" width="264" class="worker-foto">
+                
+                      
+                        <img srcset="./images/index/photo1.jpg 1x, ./images/index/photo1@2x.jpg 2x" 
+                        src="./images/index/photo1.jpg" alt="cute cat" width="264" class="worker-foto"/>
+                
                         <div class="name-worker">
                             <h3 class="name-sektion-fo-elem">Mark Guerrero</h3>
                             <p class="text">Product Designer</p>
@@ -269,7 +270,8 @@
 
                     <li class="section-fo-list-elem">
                         <div class="teamblock">
-                        <img src="./images/index/photo2.jpg" alt="cute cat" width="264">
+                        <img srcset="./images/index/photo2.jpg 1x, ./images/index/photo2@2x.jpg 2x" 
+                         src="./images/index/photo2.jpg" alt="cute cat" width="264">
                         <div class="name-worker">
                             <h3 class="name-sektion-fo-elem">Tom Ford</h3>
                             <p class="text">Frontend Developer</p>
@@ -312,7 +314,8 @@
 
                     <li class="section-fo-list-elem">
                         <div class="teamblock">
-                        <img src="./images/index/photo3.jpg" alt="cute cat" width="264">
+                        <img srcset="./images/index/photo3.jpg 1x, ./images/index/photo3@2x.jpg 2x"
+                         src="./images/index/photo3.jpg" alt="cute cat" width="264">
                         <div class="name-worker">
                             <h3 class="name-sektion-fo-elem">Camila Garcia</h3>
                             <p class="text">Marketing</p>
@@ -355,7 +358,8 @@
 
                     <li class="section-fo-list-elem">
                         <div class="teamblock">
-                        <img src="./images/index/photo4.jpg" alt="cute cat" width="264">
+                        <img srcset="./images/index/photo4.jpg 1x, ./images/index/photo4@2x.jpg 2x"
+                         src="./images/index/photo4.jpg" alt="cute cat" width="264">
                         <div class="name-worker">
                             <h3 class="name-sektion-fo-elem">Daniel Wilson</h3>
                             <p class="text">UI Designer</p>
@@ -408,10 +412,18 @@
 
                     <li class="port-link">
                         <div class="portfolio-block">
-                            <img
-                             srcset="./images/mobile/bank.png, ./images/mobile/bank@2x.png"
-                             src="images/index/portfolio/BankingApp.jpg" 
-                             alt="image">
+                        <picture>
+                            <source
+                            srcset="./images/mobile/356/356Bank.jpg 1x, ./images/mobile/356/356bank@2x.jpg 2x"
+                            media="(min-width: 768px)"/>
+
+                            <source
+                             srcset="./images/mobile/bank.png 1x, ./images/mobile/bank@2x.png 2x"
+                             src="images/index/portfolio/BankingApp.jpg" />
+                            <img src="./images/mobile/bank.png 1x,"
+                             alt="image"/>
+                        </picture>
+
                             <p class="paragraf-overlay">
                                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
                                 App
@@ -423,14 +435,21 @@
                             <h2 class="card-heading">Banking App</h2>
                             <p class="card-text">App</p>
                         </div>
-                    </li>
+                    </li> 
 
-                    <li class="port-link">
-                        <div class="portfolio-block">
-                            <img
-                            srcset="./images/mobile/phone.png, ./images/mobile/phone@2x" 
-                            src="images/index/portfolio/CashlessPayment.jpg"
-                             alt="image">
+    <li class="port-link">
+        <div class="portfolio-block">
+            <picture>
+                <source 
+                    srcset="./images/mobile/356/356phone.jpg 1x, ./images/mobile/356/356phone@2x.jpg 2x"
+                    media="(min-width: 768px)"
+                    />
+                <source
+                    srcset="./images/mobile/phone.png 1x, ./images/mobile/phone@2x.png 2x"
+                    media="(min-width: 320px)"/>
+                  <img src="./images/mobile/phone.png 1x"
+                    alt="image"/>                  
+            </picture>
                             <p class="paragraf-overlay">
                                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
                                 App · Exotic Fruit Ecommerce App ·
@@ -445,10 +464,17 @@
 
                     <li class="port-link">
                         <div class="portfolio-block">
-                            <img
-                            srcset="./images/mobile/nout.png, ./images/mobile/nout@2x.png"
-                            src="images/index/portfolio/MeditationApp.jpg"
-                             alt="meditation">
+            <picture>
+                <source
+                    srcset="./images/mobile/356/356nout.jpg 1x, ./images/mobile/356/356nout@2x.jpg 2x"
+                    media="(min-width: 768px)"/>
+                            <source
+                                 srcset="./images/mobile/nout.png 1x, ./images/mobile/nout@2x.png 2x"
+                                  media="(min-width: 320px)"/>
+
+                            <img src="./images/mobile/nout.png 1x"
+                             alt="meditation"/>
+             </picture>
                             <p class="paragraf-overlay">
                                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
                                 App · Exotic Fruit Ecommerce App ·
@@ -463,9 +489,16 @@
 
                     <li class="port-link">
                         <div class="portfolio-block">
-                            <img 
-                            srcset="./images/mobile/car.png, ./images/mobile/car@2x.png" 
-                             alt="taxi">
+            <picture>
+                <source
+                srcset="./images/mobile/356/356car.jpg, ./images/mobile/356/356car@2x.jpg 2x"
+                media="(min-width: 768px)"/>
+                 <source       
+                        srcset="./images/mobile/car.png 1x, ./images/mobile/car@2x.png 2x" 
+                        media="(min-width: 320px)"/>
+                        <img src="images/index/portfolio/TaxiService.jpg"
+                        alt="taxi">
+            </picture>
                             <p class="paragraf-overlay">
                                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
                                 App · Exotic Fruit Ecommerce App ·
@@ -480,10 +513,16 @@
 
                     <li class="port-link">
                         <div class="portfolio-block">
-                            <img
-                            srcset="./images/mobile/meditation.png, ./images/mobile/meditation@2x.png"
-                            src="images/index/portfolio/MeditationApp.jpg"
-                            alt="meditation">
+            <picture>
+                    <source
+                       srcset="./images/mobile/356/356meditation.jpg, ./images/mobile/356/356maditation@2x.jpg 2x"
+                        media="(min-width: 768px)"/>
+                    <source        
+                        srcset="./images/mobile/meditation.png 1x, ./images/mobile/meditation@2x.png 2x"
+                         media="(min-width: 320px)"/>
+                        <img src="images/index/portfolio/MeditationApp.jpg"
+                            alt="meditation"/>
+            </picture>
                             <p class="paragraf-overlay">
                                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
                                 App · Exotic Fruit Ecommerce App ·
@@ -499,9 +538,15 @@
 
                     <li class="port-link">
                         <div class="portfolio-block">
-                            <img
-                            srcset="./images/mobile/girl.png, ./images/mobile/girl@2x.png" 
-                            src="images/index/portfolio/OnlineCourses.jpg" alt="">
+            <picture>
+                <source
+                           srcset="./images/mobile/356/356girl.jpg, ./images/mobile/356/356girl@2x.jpg 2x"
+                            media="(min-width: 768px)"/>
+                      <source      
+                            srcset="./images/mobile/girl.png 1x, ./images/mobile/girl@2x.png 2x" 
+                             media="(min-width: 320px)"/>
+                        <img  src="images/index/portfolio/OnlineCourses.jpg" alt="">
+            </picture>
                             <p class="paragraf-overlay">
                                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
                                 App · Exotic Fruit Ecommerce App ·
@@ -610,24 +655,23 @@
 
 <!-- //////  =========  MODAL WINDOW   ==========  /////////// -->
 
-
-     <div id="modal-order" class="modal ">
+     <div id="modal-order" class="modal">
         <div class="backdrop"> 
 
  <!--  first dother element - clouse button   -->
-
+ 
             <button type="button" class="modal-close-btn" data-modal-close>
                 <svg class="model-close-btn-icon" width="8" height="8">
                     <use href="./images/icons.svg#icon-close-black"></use>
                 </svg>
-            </button> 
+            </button>  
 
 <!--      second dother element -  text       -->
              <p class="text-modal text">Leave your contacts and we will call you back</p> 
 
 <!--   three dother element - modal form    -->
 
-             <form class="modal-form">
+            <form class="modal-form">
 
                 <div class="modal-field">
                     <label for="user-name" class="modal-form-field">Name</label>
@@ -671,11 +715,6 @@
                 </div> 
 
 
-
-
-
-
-
                 <div class="modal-form-checkbox">
                     <input id="user-privacy" class="modal-form-checkbox-input visually-hidden" type="checkbox" value="true"
                         name="user-privacy">
@@ -689,28 +728,13 @@
                         <a class="modal-form-terms-pp-link" href="">Privacy Policy</a>
                     </label>
                 </div>
-
-                <!-- <div class="div-checkbox">
-                    <input id="user-privacy" type="checkbox" value="true" name="user-privacy"
-                        class="modal-form-check visually-hidden">
-
-                    <label for="user-privacy" class="modal-form-check-desc">I accept the terms and conditions of the
-                        &nbsp; <span class="privacy-policy">Privacy Policy</span>
-                    </label> -->
-
-                    <!-- <label for="user-privacy" class="modal-form-check-desc">I accept the terms and conditions of the &nbsp;<a href=""><span
-                class="privacy-policy">Privacy Policy</span></a>
-    </label> -->
-        
-
                 <button type="submit" class="modal-form-submit btn">Send</button>
-
-
-
-            </form>
+            </form> 
         </div>
-    </div>
+    </div> 
 
+
+    <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
 </body>
 
