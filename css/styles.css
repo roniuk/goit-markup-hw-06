@@ -28,17 +28,56 @@
 
     
   /* ****************** menu mobile modal ****************  */
+ 
+ @media screen and (min-width: 326px) {
+
+   
+    .mmodal-menu {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+ .mmenu-adr {
+        margin-left: auto;
+         margin-right: auto
+     }
+
+          .maddress {
+              margin-left: auto;
+              margin-right: auto;
+          }
+  }
+
+    .menu-mobile-content {
+            padding-top: 72px;
+            padding-left: 16px;
+            padding-right: 16px;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+        }
+    
+
+ 
+
+
+
+
   .mobile-menu-container .modal-menu-close-btn {
     background-color: var(--);
 
   }
+
   .mmenu-item {
       margin-bottom: 24px;
+      
   }
 
   .mmenu-item .contact-link {
 font-size: 20px;
 color: var(--slate-text);
+font-weight: 500;
   }
 
    .mmenu-item .contact-link:hover {
@@ -48,16 +87,19 @@ color: var(--slate-text);
 
   .address {
     margin-bottom: 48px;
-    margin-left: 16px;
+    margin-left: 16px; 
   }
   .mmodal-menu {
-    margin-bottom: 168px;
-    margin-top: 72px;
-    margin-left: 16px;
+     margin-bottom: auto;
+     /* margin-left: auto;
+     margin-right: auto; */
+    
   }
 
   .mmodal-menu-item {
     margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .mmodal-menu-item h2 {
@@ -75,12 +117,17 @@ color: var(--slate-text);
 
 }
 
+
+
   /* ********  the end of menu mobile modal ****************  */
  
 
 /* MOBILE SCREEN */
   @media screen and (max-width: 768px) {
-
+    .divheadindex {
+            padding-top: 6px;
+        }
+    
     .modal-window-text {
             width: 231px;
         }
@@ -105,7 +152,9 @@ color: var(--slate-text);
    justify-content: center;
     background-position: center;
 
-                }
+    margin-bottom: 40px;
+    margin-top: 24px;
+      }
     }
     
     .footer-right {
