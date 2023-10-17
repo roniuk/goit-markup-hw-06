@@ -85,10 +85,11 @@ font-weight: 500;
        color: var(--);
    }
 
-  .address {
+  /* .address {
     margin-bottom: 48px;
     margin-left: 16px; 
-  }
+  } */
+
   .mmodal-menu {
      margin-bottom: auto;
      /* margin-left: auto;
@@ -124,6 +125,11 @@ font-weight: 500;
 
 /* MOBILE SCREEN */
   @media screen and (max-width: 768px) {
+
+    .hero-imag-name {
+        margin-bottom: 72px;
+    }
+
     .name-sektion-elem {
         font-size: 36px;
         font-weight: 700;  
@@ -364,12 +370,34 @@ max-width: 768px;
 /* TABLET SCREEN */
   @media screen and (min-width: 768px) and (max-width: 1158px) {
 
+    .social-media {
+        justify-content: left;
+    }
+
+    .futer-logo-link {
+        justify-content: left;
+    }
+
+    .hero-imag-name {
+        margin-bottom: 36px;
+    }
+
+    .menu-item-mail {
+        margin-bottom: 12px;
+    }
+
+    .menu-adr {
+        gap: 12px;
+    }
+
     .name-sektion-elem {
             font-size: 36px;
             font-weight: 700;
         }
     .address {
     margin-bottom: 0;
+    display: flex;
+    align-items: center;
     }
 
      .mobile-menu {
@@ -521,8 +549,6 @@ max-width: 768px;
         }
 
      .contact-link {
-        padding-top: 10px;
-        padding-bottom: 0;
         font-size: 12px;
     } 
 
@@ -549,6 +575,19 @@ max-width: 768px;
 /* DESCTOP SCREEN */
  
 @media screen and (min-width: 1158px) {
+
+    .futer-logo-link {
+        justify-content: left;
+    }
+
+    .social-media {
+        justify-content: left;
+    }
+
+    .hero-imag-name {
+        margin-bottom: 48px;
+    }
+
     .address {
     margin-bottom: 0;
     }
@@ -974,14 +1013,15 @@ display: flex;
 
  /* /////////////////  INDEX - HTML   //////////////////////// */
  .hero-image {
-     max-width: 1440px; */
+     max-width: 1440px;
      /* height: 600px; */
+
      background-position: center;
-     margin-left: auto;
-     margin-right: auto;
+     /* margin-left: auto;
+     margin-right: auto; */
      background-repeat: no-repeat;
      background-size: cover;
-     text-align: center;
+     text-align: center; 
      /* padding: 188px 0; */ 
 }
 
@@ -1000,10 +1040,6 @@ display: flex;
      text-align: center;
      letter-spacing: 0.02em;
      color: var(--base-wait-color);
-     background-color: 000000;
-     margin-bottom: 72px;
-
-
  } 
 
  .btn {
