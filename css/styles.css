@@ -69,8 +69,11 @@ color: var(--slate-text);
       color: var(--iris);
   }
 
+.modal-form-checkbox {
+    display: flex;
+        justify-content: center;
 
-  /*
+}
 
   /* ********  the end of menu mobile modal ****************  */
  
@@ -78,8 +81,12 @@ color: var(--slate-text);
 /* MOBILE SCREEN */
   @media screen and (max-width: 768px) {
 
+    .modal-window-text {
+            width: 231px;
+        }
+
     .backdrop {
-           max-width: 320px;
+           max-width: 288px;
 }
 
     .page-header {
@@ -1718,6 +1725,10 @@ justify-content: center;
      letter-spacing: 0.04em;
      color: #8E8F99;
      font-family: 'Roboto', sans-serif;
+
+     justify-content: center;
+     display: flex;
+     align-items: center;
  }
 
  .modal-form-terms-pp {
