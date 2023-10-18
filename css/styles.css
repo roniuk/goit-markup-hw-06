@@ -26,7 +26,15 @@
      background-color: var(--base-wait-color);
  }
 
-    
+  .footer-site {
+      background-color: var(--navy-blue);
+      padding-top: 96px;
+      padding-bottom: 96px;
+      margin-left: auto;
+      margin-right: auto;
+      /* padding-right: 42px;*/
+  }
+
   /* ****************** menu mobile modal ****************  */
  
  @media screen and (min-width: 326px) {
@@ -125,6 +133,10 @@ font-weight: 500;
 
 /* MOBILE SCREEN */
   @media screen and (max-width: 768px) {
+
+    .section-two-elem .text {
+            font-weight: 500;
+    }
 
     .hero-imag-name {
         margin-bottom: 72px;
@@ -369,6 +381,9 @@ max-width: 768px;
 
 /* TABLET SCREEN */
   @media screen and (min-width: 768px) and (max-width: 1158px) {
+    .section-two-elem .text {
+            font-weight: 500;
+        }
 
     .subscribe-media {
         width: 560px;
@@ -475,8 +490,8 @@ max-width: 768px;
 
     .footer-site {
             background-color: var(--navy-blue);
-            padding-top: 100px;
-            padding-bottom: 100px;
+            padding-top: 96px;
+            padding-bottom: 96px;
             max-width: 1158px;
             margin-left: auto;
             margin-right: auto;
@@ -583,17 +598,12 @@ max-width: 768px;
 /* DESCTOP SCREEN */
  
 @media screen and (min-width: 1158px) {
-
-    .footer-container {
-            padding: 0;
+    
+.footer-container {
+         padding: 0;
     }
 
-    .footer-site { 
-        margin-top: 100px;
-        margin-bottom: 100px;
-    }
-
-        .subscribe-media {
+    .subscribe-media {
             margin-left: 0;
         }
 
@@ -713,19 +723,13 @@ max-width: 768px;
             justify-content: center;
         }
     
-        .footer-site {
-            background-color: var(--navy-blue);
+.footer-site {
             padding-top: 100px;
             padding-bottom: 100px;
             max-width: 1158px;
-            margin-left: auto;
-            margin-right: auto;
+            display: flex;
+                
         }
-
-.footer-site {
-    max-width: 1440px;
-    display: flex;
-}
 
 .address .list {
         display: flex;
@@ -1112,23 +1116,8 @@ display: flex;
      padding-bottom: 96px;
  }
  
-
- 
-
-
-
- 
  .name-sektion-elem {
      margin-bottom: 8px;
- }
-
- .section-two-text {
-     font-weight: 500;
-     font-size: 16px;
-     line-height: 24px;
-     letter-spacing: 0.02em;
-     color: #434455;
-
  }
 
  /*  //////////////-- INDEX -- SECTION 3 ---////////////////  */
@@ -1367,19 +1356,6 @@ align-items: center;
 display: flex;
 justify-content: center;
  }
-
-
- .footer-site {
-     background-color: var(--navy-blue);
-     padding-top: 96px;
-     padding-bottom: 96px;
-        margin-left: auto;
-        margin-right: auto;
-        /* padding-right: 42px;*/
- } 
-
-
- 
 
 
  .footer-site .logo {
